@@ -1,0 +1,10 @@
+<div>
+  <label>Date of Birth:</label>
+  <input type="date" #dateOfBirthInput (blur)="calculateAge()" />
+</div>
+<div>
+  <label>Age:</label>
+  <input type="text" #ageInput />
+</div>
+<app-demo></app-demo>
+{{ demo.sayHello() }}
